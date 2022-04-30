@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "Build and run",
-      "setup": "npm install && npm run build && npm install -g serve",
-      "run": "serve -s build",
+      "setup": "npm install",
+      "run": "npm run build",
       "input": "",
       "output": "",
       "comparison": "included",
