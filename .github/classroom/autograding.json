@@ -5,7 +5,7 @@
       "setup": "npm install && npm run build && npm install -g serve",
       "run": "(timeout --signal=SIGINT 5 serve -s build; exit 0)",
       "input": "",
-      "output": "Serving!",
+      "output": "INFO: Accepting connections at http://localhost:3000",
       "comparison": "included",
       "timeout": 10,
       "points": 25000
