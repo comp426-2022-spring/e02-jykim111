@@ -3,11 +3,11 @@
     {
       "name": "Build and run",
       "setup": "npm install && npm run build && npm install -g serve",
-      "run": "(timeout --signal=SIGINT 5 serve -s build; exit 0)",
+      "run": "serve -s build",
       "input": "",
-      "output": "INFO: Accepting connections",
+      "output": "",
       "comparison": "included",
-      "timeout": 10,
+      "timeout": 1,
       "points": 25000
     }
   ]
