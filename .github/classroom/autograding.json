@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Build and run",
-      "setup": "npm run build && npm install -g serve",
+      "setup": "npm install && npm run build && npm install -g serve",
       "run": "(timeout --signal=SIGINT 5 serve -s build; exit 0)",
       "input": "",
       "output": "Serving!",
