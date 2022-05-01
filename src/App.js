@@ -56,7 +56,11 @@ function App() {
     if (currentSum === '')
       return;
     // 2. This line is where you add the points all together. Add your other variable references here. Make sure that they match what is above and what is below in the HTML form
-    let sum = parseInt(currentA00) + parseInt(currentA01);
+    let sum = parseInt(currentA00) + parseInt(currentA01) + parseInt(currentA02) + parseInt(currentA03)
+      + parseInt(currentA04) + parseInt(currentA05) + parseInt(currentMidterm)
+      + parseInt(currentCommits) + parseInt(currentE01) + parseInt(currentE02)
+      + parseInt(currentFinal) + parseInt(currentProject);
+
     setCurrentSum(sum);
   }
 
