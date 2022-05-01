@@ -51,15 +51,15 @@ function App() {
     let currentE01 = document.querySelector('#e01').value
     let currentE02 = document.querySelector('#e02').value
 
-    let currentFinal = document.querySelector('#finals').value
-    let currentProject = document.querySelector('#project').value
+    let currentFinals = document.querySelector('#finals').value
+    let currentA99 = document.querySelector('#a99').value
     if (currentSum === '')
       return;
     // 2. This line is where you add the points all together. Add your other variable references here. Make sure that they match what is above and what is below in the HTML form
     let sum = parseInt(currentA00) + parseInt(currentA01) + parseInt(currentA02) + parseInt(currentA03)
       + parseInt(currentA04) + parseInt(currentA05) + parseInt(currentMidterm)
       + parseInt(currentCommits) + parseInt(currentE01) + parseInt(currentE02)
-      + parseInt(currentFinal) + parseInt(currentProject);
+      + parseInt(currentFinals) + parseInt(currentA99);
 
     setCurrentSum(sum);
   }
@@ -75,8 +75,11 @@ function App() {
         <h1>COMP 426 Points</h1>
       </div>
       <form>
-        <input type="text" id="a00" placeholder="a00" /><br /><br />
-        <input type="text" id="a01" placeholder="a01" /><br /><br />
+        <input type="text" id="a00" placeholder="a00 Setup" /><br /><br />
+        <input type="text" id="a01" placeholder="a01 Node" /><br /><br />
+        <input type="text" id="a02" placeholder="a02 Functions & Modules" />
+        <input type="text" id="a03" placeholder="a03 Make an API" />
+        <input type="text" id="a04" placeholder="a04 Databases, logs, errors, and middleware" />
         <button onClick={Add}>Add</button>
         <button onClick={Clear}>Clear</button>
         <label for="result"><b>Result:</b></label>
