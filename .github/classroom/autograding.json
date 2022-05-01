@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Build and run",
+      "setup": "npm install",
+      "run": "npm run build",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 25000
+    },
+    {
+      "name": "Troubleshooting this autograder",
+      "setup": "",
+      "run": "printf -- \"The grader for this seeks to do one thing and one thing only: build your app.\\n\\nIf you are failing this autograder test, it is because your app will not build.\\n\\nTo test this yourself, which you should already be doing, go to the root of your\\nrepository directory and then run the build script yourself. To do this, run:\\n\\n  npm run build\\n\\nIf that returns erors, then the autograder will not pass.\\n\\nYour job then is to figure out what is causing the errors.\\n\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
