@@ -45,6 +45,7 @@ function App() {
     let currentA04 = document.querySelector('#a04').value
     let currentA05 = document.querySelector('#a05').value
 
+    let currentFirstQuestionnaire = document.querySelector('#questionnaire1').value
     let currentMidterm = document.querySelector('#midterm').value
     let currentCommits = document.querySelector('#commits').value
 
@@ -59,7 +60,7 @@ function App() {
     let sum = parseInt(currentA00) + parseInt(currentA01) + parseInt(currentA02) + parseInt(currentA03)
       + parseInt(currentA04) + parseInt(currentA05) + parseInt(currentMidterm)
       + parseInt(currentCommits * 500) + parseInt(currentE01) + parseInt(currentE02)
-      + parseInt(currentFinals) + parseInt(currentA99);
+      + parseInt(currentFinals) + parseInt(currentA99) + parseInt(currentFirstQuestionnaire);
 
     setCurrentSum(sum);
   }
@@ -83,6 +84,7 @@ function App() {
         <input type="text" id="a05" placeholder="a05 Human Interface" /><br /><br />
         <input type="text" id="midterm" placeholder="Midterm" /><br /><br />
         <input type="text" id="commits" placeholder="GH Commits" /><br /><br />
+        <input type="text" id="currentFirstQuestionnaire" placeholder="First Questionnaire" /><br /><br />
         <input type="text" id="e01" placeholder="e01 HTML+CSS" /><br /><br />
         <input type="text" id="e02" placeholder="e02 React" /><br /><br />
         <input type="text" id="finals" placeholder="Finals" /><br /><br />
