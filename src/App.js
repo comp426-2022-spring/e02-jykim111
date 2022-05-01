@@ -77,9 +77,16 @@ function App() {
       <form>
         <input type="text" id="a00" placeholder="a00 Setup" /><br /><br />
         <input type="text" id="a01" placeholder="a01 Node" /><br /><br />
-        <input type="text" id="a02" placeholder="a02 Functions & Modules" />
-        <input type="text" id="a03" placeholder="a03 Make an API" />
-        <input type="text" id="a04" placeholder="a04 Databases, logs, errors, and middleware" />
+        <input type="text" id="a02" placeholder="a02 Functions & Modules" /><br /><br />
+        <input type="text" id="a03" placeholder="a03 Make an API" /><br /><br />
+        <input type="text" id="a04" placeholder="a04 Databases, logs, errors, and middleware" /><br /><br />
+        <input type="text" id="a05" placeholder="a05 Human Interface" /><br /><br />
+        <input type="text" id="midterm" placeholder="Midterm" /><br /><br />
+        <input type="text" id="commits" placeholder="GH Commits" /><br /><br />
+        <input type="text" id="e01" placeholder="e01 HTML+CSS" /><br /><br />
+        <input type="text" id="e02" placeholder="e02 React" /><br /><br />
+        <input type="text" id="finals" placeholder="Finals" /><br /><br />
+        <input type="text" id="a99" placeholder="a99 Final Project" /><br /><br />
         <button onClick={Add}>Add</button>
         <button onClick={Clear}>Clear</button>
         <label for="result"><b>Result:</b></label>
